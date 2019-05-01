@@ -1,6 +1,6 @@
 function randomizer(N) {
     let array = []
-    returnArray = []
+    let returnArray = []
     for (let i = 0; i < N; i++) {
         array.push(i);
     }
@@ -44,3 +44,5 @@ function randomizer(N) {
 
 //     }
 // }
+
+export default randomizer;
