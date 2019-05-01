@@ -14,4 +14,33 @@ function randomizer(N) {
     return returnArray.concat(array);
 }
 
-console.log(randomizer(32).length);
+//In development;
+// function randomizer2(N) {
+//     let array = []
+//     let returnArray = [[],[],[],[],[],[],[],[]];
+//     for (let i = 0; i < N; i++) {
+//         array.push(i);
+//     }
+// }
+
+// class Stack {
+//     constructor(N){
+//         this.length = N;
+//         this.elementIndex = 0;
+//         this.array = new Array(N);
+//     }
+
+//     push(element) {
+//         this.array[this.elementIndex++] = element;
+//     }
+
+//     pop() {
+//         let temp = this.array[this.elementIndex];
+//         this.array[this.elementIndex--] = null;
+//         return temp;
+//     }
+
+//     sort() {
+
+//     }
+// }
